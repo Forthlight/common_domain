@@ -1,7 +1,8 @@
 module CommonDomain
   class Engine < ::Rails::Engine
     isolate_namespace CommonDomain
-
+    require 'mongoid'
+    
     # Generators
     config.generators do |g|
        g.test_framework :rspec, :fixture => true, :views => false
