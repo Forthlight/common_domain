@@ -1,0 +1,30 @@
+/*Index*/
+
+.blog-content {
+	padding:10px;
+	background: white;
+}
+
+.blog-post {
+  background: #efefef;
+  padding:10px;
+  margin:0 10px;
+  margin-bottom: 10px;
+}
+
+.blog-fluff {
+  background: #efefef;
+}
+
+.blog-foot {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/*show*/
+
+.blog-showcase {
+  background: white;
+  padding:10px;
+}

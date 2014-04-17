@@ -41,7 +41,7 @@ $(document).ready(function(){
     // Changes style of active menu, removes style from the other menu
     function active_menu(that, id, other){
         if($(that).is(':checked')){
-            $('label[for="' + id + '"]').css('background', '#000');
+            $('label[for="' + id + '"]').css('background', '#333');
             $('label[for="' + other + '"]').css('background', '');
         }
         else{
