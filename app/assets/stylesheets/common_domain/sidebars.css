@@ -1,0 +1,41 @@
+.side-head {
+  background: #da5838;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  color:#fff;
+}
+
+.side-info {
+  background: white;
+  padding:15px;
+}
+
+.side-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.side-info li {
+border-bottom: 1px solid #efefef;
+padding-top: 5px;
+}
+
+.side-info span {
+  float: right;
+}
+
+.catalog-head {
+  background: #da5838;
+  padding:15px;
+  color:#fff;
+}
+
+.catalog .row-fluid [class*="span"] {
+    margin-left: 0!important;
+}
+
+.catalog {
+  background: white;
+  padding: 10px;
+}

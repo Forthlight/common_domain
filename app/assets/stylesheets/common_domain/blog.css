@@ -28,3 +28,9 @@
   background: white;
   padding:10px;
 }
+
+.comment-post {
+    background: #efefef;
+    padding:10px;
+    margin:10px 0;
+}

@@ -12,6 +12,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333;
+  height: 100%;
   background:#e8e8e8;
   margin:0;
   padding: none;
@@ -309,3 +310,32 @@ a {
   }
 
 /*end checkboxes*/
+
+/*footer*/
+
+.foot-wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+
+.footer {
+  background: #333;
+  color:#fff;
+  text-align: center;
+  padding:10px;
+}
+
+.footer a {
+  text-decoration: underline;
+ margin:10px;
+}
+
+.watermark {
+  color:#FC6E51;
+}
+/*end footer*/
