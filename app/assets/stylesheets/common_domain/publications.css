@@ -1,0 +1,35 @@
+.composer-container {
+  background: white;
+}
+
+.drop-compose {
+  margin-top: 15px
+}
+
+.composer {
+	padding:10px;
+}
+
+.composer-head {
+  background: #da5838;
+  padding:10px;
+  color:white;
+}
+
+.overhead input, #publication_type_id, #publication_category_id  {
+  width:100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .composer-head {
+    background: #da5838;
+    padding:10px;
+    color:white;
+  }
+
+  .overhead input, #publication_type_id, #publication_category_id  {
+    width:50%;
+  }
+}
