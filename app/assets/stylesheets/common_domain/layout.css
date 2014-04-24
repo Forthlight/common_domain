@@ -66,6 +66,9 @@ a {
   text-decoration: none;
 }
 
+textarea {
+  resize: vertical;
+}
 /* end global typography*/
 
 
@@ -263,6 +266,14 @@ a {
   background: #376bd8;
 }
 
+.del {
+  background:#FC6E51;
+}
+
+.del:hover {
+  background: #fc846b!important;
+}
+
 /*end buttons*/
 
 /*checkboxes*/
@@ -339,3 +350,4 @@ height: 4em;
   color:#FC6E51;
 }
 /*end footer*/
+
