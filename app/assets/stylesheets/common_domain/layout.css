@@ -125,6 +125,16 @@ textarea {
 
 }
 
+/* search form in header*/
+.nav-search{
+  float: right;
+  padding: 0 20px;
+}
+
+.nav-search input{
+  display: inline;
+}
+
 /* mobile panel toggle*/
 
 .main-bar label {
@@ -228,7 +238,7 @@ textarea {
  }
 
  .main-bar nav a {
-   padding: 8px 40px;
+   padding: 8px 20px;
  }
 
  .main-bar label {
