@@ -63,7 +63,6 @@ h4 {
 
 a {
   color:inherit;
-  text-decoration: none;
 }
 
 textarea {
@@ -260,6 +259,7 @@ textarea {
   max-width:30%; 
   padding: 0 20px;
   text-align: center;
+  text-decoration: none;
 }
 
 .mock-btn:hover{
@@ -283,55 +283,55 @@ textarea {
 }
 
 .check-style label {
-    display: inline-block;
-    cursor: pointer;
-    position: relative;
-    padding-left: 28px;
-    margin-right: 12px;
-  }
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 28px;
+  margin-right: 12px;
+}
 
- .check-style input[type=checkbox] {
-    display: none;
-  }
- .check-style label:before {
-    font-weight: normal;
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-    bottom: 1px;
-    background-color: #4A8CF6;
-  }
+.check-style input[type=checkbox] {
+  display: none;
+}
+.check-style label:before {
+  font-weight: normal;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  bottom: 1px;
+  background-color: #4A8CF6;
+}
 
-  .check-style .checkbox label:before {
-    border-radius: 3px;
-  }
+.check-style .checkbox label:before {
+  border-radius: 3px;
+}
 
- .check-style input[type=checkbox]:checked + label:before {
-    content: '\2713';
-    text-shadow: 1px 1px 1px #10758C;
-    font-size: 24px;
-    color: #f3f3f3;
-    text-align: center;
-    line-height: 24px;
-  }
+.check-style input[type=checkbox]:checked + label:before {
+  content: '\2713';
+  text-shadow: 1px 1px 1px #10758C;
+  font-size: 24px;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 24px;
+}
 
 /*end checkboxes*/
 
 /*footer*/
 
 .foot-wrapper {
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -4em;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
 }
 .footer, .push {
-height: 4em;
+  height: 4em;
 }
 
 .footer {
@@ -343,7 +343,7 @@ height: 4em;
 
 .footer a {
   text-decoration: underline;
- margin:10px;
+  margin:10px;
 }
 
 .watermark {
@@ -351,3 +351,45 @@ height: 4em;
 }
 /*end footer*/
 
+
+/*priting*/
+@media print {
+
+  * {
+    background: none;
+    padding:none;
+    margin: none;
+  }
+
+  body {
+    font: 12pt Georgia, "Times New Roman", Times, serif;
+    line-height: 1.3;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 25px;
+  }
+
+
+  @page :left {
+    margin: 0.5cm;
+  }
+
+  @page :right {
+    margin: 0.8cm;
+  }
+
+  header:before {
+    display: block;
+    content: "This paper was printed from www.forthlight.org Please check back soon for more solar powered knowledge.";
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    padding: 3px 5px;
+    font-style: italic;
+  }
+}

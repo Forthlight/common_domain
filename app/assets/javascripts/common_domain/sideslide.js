@@ -9,15 +9,13 @@ $(document).ready(function(){
         if($(that).is(':checked')){
             if($('html, body').css('overflow').toLowerCase() != 'hidden'){
                 $('html, body').css({
-                    'overflow': 'hidden',
-                    'height': '100%'
+                    'overflow': 'hidden'
                 }) 
             }
         }
         else{
             $('html, body').css({
-                'overflow': 'auto',
-                'height': 'auto'
+                'overflow': 'auto'
             })
         }
     }
