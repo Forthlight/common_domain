@@ -127,11 +127,25 @@ textarea {
 /* search form in header*/
 .nav-search{
   float: right;
-  padding: 0 20px;
+
 }
 
 .nav-search input{
   display: inline;
+}
+
+.launcher-searchbar {
+  background: #efefef;
+  border: 0;
+  color:#222;
+  cursor: pointer;
+  display: inline-block;  
+  font-size: 16px;
+  margin-top: 5px;
+  height: 25px;
+  line-height: 40px;
+  padding: 0 20px;
+  cursor: text;
 }
 
 /* mobile panel toggle*/
@@ -253,6 +267,23 @@ textarea {
 /* end navigation*/
 
 /*buttons*/
+
+.launcher-btn {
+  background: #4A8CF6;
+  border: 0;
+  color:#fff;
+  cursor: pointer;
+  display: inline-block;  
+  font-size: 16px;
+  margin-top: 5px;
+  height: 25px;
+  line-height: 40px;
+  min-width:auto;
+  max-width:10%; 
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+}
 
 .mock-btn {  
   background: #4A8CF6;
