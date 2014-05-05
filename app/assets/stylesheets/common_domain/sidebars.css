@@ -25,6 +25,11 @@ padding-top: 5px;
   float: right;
 }
 
+/* class to not float sidebar span*/
+.side-info span.no-float {
+  float: none;
+}
+
 .catalog-head {
   background: #da5838;
   padding:15px;

@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "pg", "0.17.1"
   s.add_dependency "mongoid", "4.0.0.beta1"
   s.add_dependency "nokogiri"
+  s.add_dependency 'sanitize', '~> 2.1.0'
 
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "minitest", "4.7.5"
