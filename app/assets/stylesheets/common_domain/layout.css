@@ -368,6 +368,10 @@ textarea {
   line-height: 24px;
 }
 
+.check-style div.option-box{
+  float: right;
+}
+
 /*end checkboxes*/
 
 /*footer*/
