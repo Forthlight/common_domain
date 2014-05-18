@@ -394,7 +394,7 @@ textarea {
   padding: 10px;
 }
 
-.footer a {
+.footer ul li a {
   text-decoration: underline;
   margin: 10px;
 }
