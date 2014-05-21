@@ -283,10 +283,9 @@ textarea {
   display: inline-block;  
   font-size: 16px;
   margin-top: 5px;
+  margin-right: 5px;
   height: 25px;
-  line-height: 40px;
-  min-width:auto;
-  max-width:10%; 
+  line-height: normal;
   padding: 0 20px;
   text-align: center;
   text-decoration: none;
